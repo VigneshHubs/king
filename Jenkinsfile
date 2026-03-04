@@ -2,9 +2,10 @@ pipleine{
 	agent any
 	stages{
 		stage('run'){
-		steps{
+		    steps{
+			
 			bat 'python prin.py'
-			}
+		    }
 		}
 	}
-}
+} 
